@@ -47,7 +47,7 @@ This repo uses a number of open source projects to work properly:
 * [Tensorflow]
 * [Tensorflow-Object Detection API]
 * [Tensorflow Hub]
-* [ROS]
+* [ROS] http://wiki.ros.org/melodic/Installation/Ubuntu
 * [Numpy]
 * [face_recognition] https://github.com/ageitgey/face_recognition
 * [dlib]
@@ -65,11 +65,11 @@ First, tensorflow should be installed on your system.
 
 Then,
 ```sh
-$ cd && mkdir -p catkin_ws/src && cd ..
+$ cd && mkdir -p catkin_ws/src && ~/cd catkin_ws
 $ catkin_make && cd src
 $ git clone --recursive https://github.com/cagbal/ros_people_object_detection_tensorflow.git
 $ git clone https://github.com/cagbal/cob_perception_common.git
-$ cd cob_people_object_detection_tensorflow/src
+$ cd ros_people_object_detection_tensorflow/src
 $ protoc object_detection/protos/*.proto --python_out=.
 $ cd ~/catkin_ws
 $ rosdep install --from-path src/ -y -i
