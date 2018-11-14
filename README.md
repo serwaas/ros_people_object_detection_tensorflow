@@ -78,6 +78,19 @@ $ pip install face_recognition
 $ chmod +x devel/setup.bash
 $ source devel/setup.bash
 ```
+Install dependencies:
+
+```sh
+$ pip install tensorflow
+$ pip install tensorflow-hub
+$ pip install scikit-learn
+$ pip install scikit-image
+$ pip install scipy
+$ pip install filterpy
+$ pip install numba
+$ pip install colorama
+
+```
 
 The repo includes the fastest mobilenet based method, so you can skip the steps below.
 
