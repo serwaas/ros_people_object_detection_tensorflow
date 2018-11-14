@@ -75,6 +75,8 @@ $ cd ~/catkin_ws
 $ rosdep install --from-path src/ -y -i
 $ catkin_make
 $ pip install face_recognition
+$ chmod +x devel/setup.bash
+$ source devel/setup.bash
 ```
 
 The repo includes the fastest mobilenet based method, so you can skip the steps below.
